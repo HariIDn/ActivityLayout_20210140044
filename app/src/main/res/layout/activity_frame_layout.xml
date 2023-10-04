@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayout">
+
+    <ImageView
+        android:id="@+id/imagebg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/supra" />
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="164dp"
+        android:layout_height="102dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@drawable/toyota_lg" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="140sp"
+        android:text="@string/tyt"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</FrameLayout>
